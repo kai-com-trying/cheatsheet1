@@ -1,0 +1,245 @@
+/*Universal*/
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0 0;
+    padding: 0;
+}
+
+/*Header*/
+header{
+    background-color: #2C3E50;
+    width: 100vw;
+    height: auto;
+    position: sticky;
+    top: 0;
+    margin: 0;
+}
+
+nav ul{
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px 16px;
+    color: white;
+}
+
+/*Color*/
+
+.color{
+    margin: 50px;
+}
+
+.color h1{
+    text-align: center;
+    margin: 80px;
+}
+
+.color-pal {
+    display: flex; /* This ensures the color items are side by side */
+    justify-content: center; /* Center the items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if the screen is too narrow */
+    margin-top: 20px;
+}
+
+.color-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.color-item h3 {
+    width: 250px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Individual colors */
+.color-1{
+    background-color: #2C3E50;
+}
+
+.color-2{
+    background-color: #18BC9C;
+}
+
+.color-3{
+    background-color: #E74C3C;
+}
+
+.color-4{
+    background-color: #F39C12;
+}
+
+.color-item p {
+    margin-top: 10px; /* Add spacing between the color block and description */
+    font-size: 16px;
+}
+
+
+/*Fonts*/
+
+.font{
+    background-color: #dddddd;
+    padding: 50px;
+    margin: 0;
+}
+
+.font h1{
+    text-align: center;
+}
+
+
+.font-content{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.font-content div{
+    margin: 50px;
+    justify-content: center;
+    height: 150px;
+}
+
+
+#main-font{
+    font-family: 'Montserrat'; 
+    
+}
+
+#sec-font{
+    font-family: 'Cardo';
+    
+}
+
+#third-font{
+    font-family: monospace;
+    
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.font-content h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: start;
+    text-decoration: underline;
+}
+
+/*Text Styles*/
+.text-style{
+    padding: 100px;
+}
+
+.text-style-content{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.text-style-content div{
+    margin: 20px 55px;
+    height: 200px;
+}
+
+.title{
+    text-align: center;
+}
+
+.h1 h1{
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.h2 h2{
+    font-family: Cardo;
+    padding: 12px 0 0 0;
+    text-align: center;
+}
+
+.p p{
+    font-weight: bold;
+    font-family: monospace;
+    padding: 28px 0 0 0;
+    text-align: center;
+}
+
+.text-style-content ul li{
+    align-items: end;
+}
+
+/*Button Style*/
+.btn-style{
+    background-color: #ddd;
+    padding: 100px;
+}
+
+.btn-style h1{
+    text-align: center;
+}
+
+.btn-style-content{
+    display: flex;
+    justify-content: center; 
+}
+
+.btn-style-content h3{
+    margin: 50px;
+}
+
+.button-1{
+    background-color: #E74C3C;
+    padding: 10px;
+    border-radius: 10px;
+    width: 160px;
+    text-align: center;
+}
+
+.button-2{
+    background-color: #F39C12;
+    padding: 10px;
+    border-radius: 10px;
+    width: 160px;
+    text-align: center;
+}
+
+.button-1:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.button-2:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.button-1:active{
+    color:#E74C3C;
+    background-color: white;
+}
+
+.button-2:active{
+    color:#F39C12;
+    background-color: white;
+}
